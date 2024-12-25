@@ -1,6 +1,5 @@
-Blox Fruit (main):
 ```lua
-getgenv().Team = "Marines"
-getgenv().Hide_Menu = false
-loadstring(game:HttpGet("https://apixerohub.x10.mx/main.lua"))()
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+getgenv().Key = "Input Key" 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))() 
 ```
